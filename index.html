@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Fatima Hassan's professional portfolio showcasing web development, digital marketing, and creative skills.">
-
     <title>Fatima Hassan | Professional Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,445 +13,257 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
 </head>
-
 <body>
+<header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+        <a href="#home" class="logo">FH<span>.</span></a>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#contact" class="nav-contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <!-- Navigation -->
-    <header class="site-header">
-        <nav class="navbar container" aria-label="Main navigation">
-            <a href="#home" class="logo">FH<span>.</span></a>
-
-            <button class="menu-toggle"
-                    id="menu-toggle"
-                    type="button"
-                    aria-label="Open navigation menu"
-                    aria-expanded="false"
-                    aria-controls="nav-links">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-
-            <ul class="nav-links" id="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#languages">Languages</a></li>
-                <li><a href="#contact" class="nav-contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-
-        <!-- Hero -->
-        <section class="hero section" id="home">
-            <div class="container hero-grid">
-
-                <div class="hero-content">
-                    <p class="eyebrow"><span></span> WELCOME TO MY PORTFOLIO</p>
-
-                    <h1>Hi, I'm <span>Fatima Hassan.</span></h1>
-
-                    <p class="hero-role">
-                        Digital Marketer <span>·</span>
-                        WordPress Developer <span>·</span>
-                        Creative Professional
-                    </p>
-
-                    <p class="hero-description">
-                        I combine creativity, technology, and attention to detail
-                        to help businesses strengthen their digital presence.
-                        I enjoy creating effective digital solutions and continually
-                        developing my technical and creative skills.
-                    </p>
-
-                    <div class="hero-actions">
-                        <a href="#experience" class="button button-primary">
-                            Explore My Experience <span>↗</span>
-                        </a>
-                        <a href="#contact" class="button button-outline">
-                            Contact Me
-                        </a>
-                    </div>
-
-                    <div class="hero-note">
-                        <span class="note-line"></span>
-                        Creative thinking. Practical solutions.
-                    </div>
-                </div>
-
-                <div class="hero-visual">
-                    <div class="photo-frame">
-                        <img
-                            src="images/profile.jpg"
-                            alt="Fatima Hassan"
-                            class="profile-photo"
-                        >
-                    </div>
-
-                    <div class="photo-caption">
-                        <span class="caption-star">✳</span>
-                        <div>
-                            <h2>Creativity & Dedication</h2>
-                            <p>Always learning and growing.</p>
-                        </div>
-                    </div>
-
-                    <div class="visual-decoration" aria-hidden="true">FH</div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- About -->
-        <section class="section section-cream" id="about">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="eyebrow">A LITTLE ABOUT ME</p>
-                    <h2>Turning ideas into <span>meaningful work.</span></h2>
-                </div>
-
-                <div class="about-grid">
-                    <div class="about-intro">
-                        <p class="large-copy">
-                            I'm a creative and detail-oriented professional
-                            interested in digital marketing, web development,
-                            content creation, and business support.
-                        </p>
-                    </div>
-
-                    <div class="about-details">
-                        <p>
-                            My experience spans digital media, WordPress,
-                            search engine optimization, email marketing,
-                            document editing, and administrative support.
-                            I enjoy learning new tools, solving problems,
-                            and contributing to projects that need both
-                            creativity and organization.
-                        </p>
-
-                        <div class="personal-details">
-                            <div>
-                                <span class="detail-label">LOCATION</span>
-                                <span class="detail-value">Lahore, Pakistan</span>
-                            </div>
-                            <div>
-                                <span class="detail-label">FIELD</span>
-                                <span class="detail-value">Computer Science</span>
-                            </div>
-                            <div>
-                                <span class="detail-label">INTERESTS</span>
-                                <span class="detail-value">Technology & Creativity</span>
-                            </div>
-                            <div>
-                                <span class="detail-label">APPROACH</span>
-                                <span class="detail-value">Learn, Create, Improve</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Education -->
-        <section class="section" id="education">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="eyebrow">MY ACADEMIC JOURNEY</p>
-                    <h2>Education & <span>learning.</span></h2>
-                    <p class="section-description">
-                        Building a strong foundation for my professional future.
-                    </p>
-                </div>
-
-                <div class="education-grid">
-
-                    <article class="education-card">
-                        <span class="card-number">01</span>
-                        <p class="card-period">2024 – 2027</p>
-                        <h3>BS Computer Science</h3>
-                        <p class="card-institution">Qarshi University</p>
-                        <p class="card-description">
-                            Developing knowledge of computing, technology,
-                            and problem-solving.
-                        </p>
-                    </article>
-
-                    <article class="education-card">
-                        <span class="card-number">02</span>
-                        <p class="card-period">2021 – 2023</p>
-                        <h3>Intermediate in ICS</h3>
-                        <p class="card-institution">
-                            Punjab Group of Colleges, Lahore
-                        </p>
-                        <p class="card-description">
-                            Studied computer science with physics.
-                        </p>
-                    </article>
-
-                    <article class="education-card">
-                        <span class="card-number">03</span>
-                        <p class="card-period">2019 – 2021</p>
-                        <h3>Matriculation</h3>
-                        <p class="card-institution">
-                            American Lycetuff, Lahore
-                        </p>
-                        <p class="card-description">
-                            Completed matriculation with a focus on
-                            computer sciences.
-                        </p>
-                    </article>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Experience -->
-        <section class="section section-dark" id="experience">
-            <div class="container">
-                <div class="section-heading section-heading-light">
-                    <p class="eyebrow">MY PROFESSIONAL JOURNEY</p>
-                    <h2>Experience that <span>shapes me.</span></h2>
-                    <p class="section-description">
-                        A range of responsibilities across digital marketing,
-                        web development, and administrative support.
-                    </p>
-                </div>
-
-                <div class="experience-list">
-
-                    <article class="experience-item">
-                        <div class="experience-date">2026 – PRESENT</div>
-                        <div class="experience-content">
-                            <h3>Document Editor & Email Marketer</h3>
-                            <p class="experience-company">SecureLink</p>
-                            <p>
-                                Working with document editing, formatting,
-                                and email marketing tasks.
-                            </p>
-                        </div>
-                        <span class="experience-index">01</span>
-                    </article>
-
-                    <article class="experience-item">
-                        <div class="experience-date">PREVIOUS ROLE</div>
-                        <div class="experience-content">
-                            <h3>WordPress Developer</h3>
-                            <p class="experience-company">G. Ali & Co.</p>
-                            <p>
-                                Worked on website-related tasks and supported
-                                digital media and online content activities.
-                            </p>
-                        </div>
-                        <span class="experience-index">02</span>
-                    </article>
-
-                    <article class="experience-item">
-                        <div class="experience-date">PREVIOUS ROLE</div>
-                        <div class="experience-content">
-                            <h3>Digital Media Marketing</h3>
-                            <p class="experience-company">Accord Manpower</p>
-                            <p>
-                                Contributed to digital media marketing
-                                and online promotional activities.
-                            </p>
-                        </div>
-                        <span class="experience-index">03</span>
-                    </article>
-
-                    <article class="experience-item">
-                        <div class="experience-date">ADDITIONAL EXPERIENCE</div>
-                        <div class="experience-content">
-                            <h3>Virtual Assistance & Data Entry</h3>
-                            <p class="experience-company">Various assignments</p>
-                            <p>
-                                Supported data entry, administrative tasks,
-                                and general business operations.
-                            </p>
-                        </div>
-                        <span class="experience-index">04</span>
-                    </article>
-
-                </div>
-
-                <p class="experience-note">
-                    Note: Review role names, employers, and dates against your
-                    actual work history before publishing your portfolio.
+<main>
+    <section class="hero section" id="home">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <p class="eyebrow"><span></span> WELCOME TO MY PORTFOLIO</p>
+                <h1>Hi, I'm <span>Fatima Hassan.</span></h1>
+                <p class="hero-role">Digital Marketer <span>·</span> WordPress Developer <span>·</span> Creative Professional</p>
+                <p class="hero-description">
+                    I combine creativity, technology, and attention to detail to help businesses strengthen their digital presence. I enjoy creating effective digital solutions and continually developing my technical and creative skills.
                 </p>
+                <div class="hero-actions">
+                    <a href="#experience" class="button button-primary">Explore My Experience <span>↗</span></a>
+                    <a href="#contact" class="button button-outline">Contact Me</a>
+                </div>
+                <div class="hero-note"><span class="note-line"></span>Creative thinking. Practical solutions.</div>
             </div>
-        </section>
-
-        <!-- Skills -->
-        <section class="section section-cream" id="skills">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="eyebrow">WHAT I BRING TO THE TABLE</p>
-                    <h2>Skills & <span>strengths.</span></h2>
-                    <p class="section-description">
-                        A versatile skill set combining digital, technical,
-                        creative, and organizational abilities.
-                    </p>
+            <div class="hero-visual">
+                <div class="photo-frame">
+                    <img src="images/profile.jpg" alt="Fatima Hassan" class="profile-photo">
                 </div>
-
-                <div class="skills-grid">
-
-                    <article class="skill-card">
-                        <div class="skill-icon">01</div>
-                        <h3>Digital Marketing</h3>
-                        <ul class="skill-tags">
-                            <li>SEO</li>
-                            <li>Email Marketing</li>
-                            <li>Digital Media</li>
-                            <li>Online Promotion</li>
-                        </ul>
-                    </article>
-
-                    <article class="skill-card">
-                        <div class="skill-icon">02</div>
-                        <h3>Web & Technology</h3>
-                        <ul class="skill-tags">
-                            <li>WordPress</li>
-                            <li>Website Content</li>
-                            <li>Microsoft Office</li>
-                            <li>Data Entry</li>
-                        </ul>
-                    </article>
-
-                    <article class="skill-card">
-                        <div class="skill-icon">03</div>
-                        <h3>Creative Work</h3>
-                        <ul class="skill-tags">
-                            <li>Content Writing</li>
-                            <li>Graphic Design</li>
-                            <li>Video Content</li>
-                            <li>Document Formatting</li>
-                        </ul>
-                    </article>
-
-                    <article class="skill-card">
-                        <div class="skill-icon">04</div>
-                        <h3>Professional Skills</h3>
-                        <ul class="skill-tags">
-                            <li>Communication</li>
-                            <li>Teamwork</li>
-                            <li>Time Management</li>
-                            <li>Problem-Solving</li>
-                        </ul>
-                    </article>
-
+                <div class="photo-caption">
+                    <span class="caption-star">✳</span>
+                    <div>
+                        <h2>Creativity &amp; Dedication</h2>
+                        <p>Always learning and growing.</p>
+                    </div>
                 </div>
+                <div class="visual-decoration" aria-hidden="true">FH</div>
             </div>
-        </section>
-
-        <!-- Languages -->
-        <section class="section languages-section" id="languages">
-            <div class="container languages-layout">
-
-                <div class="languages-heading">
-                    <p class="eyebrow">COMMUNICATION</p>
-                    <h2>Languages I <span>speak.</span></h2>
-                    <p>
-                        Communicating across languages and cultures
-                        helps me connect with different people.
-                    </p>
-                </div>
-
-                <div class="language-list">
-
-                    <div class="language-item">
-                        <div class="language-info">
-                            <h3>English</h3>
-                            <span>Language proficiency</span>
-                        </div>
-                        <span class="language-badge">English</span>
-                    </div>
-
-                    <div class="language-item">
-                        <div class="language-info">
-                            <h3>Urdu</h3>
-                            <span>Language proficiency</span>
-                        </div>
-                        <span class="language-badge">Urdu</span>
-                    </div>
-
-                    <div class="language-item">
-                        <div class="language-info">
-                            <h3>Punjabi</h3>
-                            <span>Language proficiency</span>
-                        </div>
-                        <span class="language-badge">Punjabi</span>
-                    </div>
-
-                    <div class="language-item">
-                        <div class="language-info">
-                            <h3>Arabic</h3>
-                            <span>Basic proficiency</span>
-                        </div>
-                        <span class="language-badge">Basic</span>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact -->
-        <section class="section contact-section" id="contact">
-            <div class="container contact-container">
-
-                <div class="contact-heading">
-                    <p class="eyebrow">LET'S CONNECT</p>
-                    <h2>Have a project in <span>mind?</span></h2>
-                    <p>
-                        I'd love to connect, discuss ideas, and explore
-                        opportunities to work together.
-                    </p>
-                </div>
-
-                <div class="contact-details">
-
-                    <a href="mailto:itsfatima.hsn@hotmail.com" class="contact-card">
-                        <span class="contact-label">EMAIL ME</span>
-                        <span class="contact-value">itsfatima.hsn@hotmail.com</span>
-                        <span class="contact-arrow">↗</span>
-                    </a>
-
-                    <a href="tel:+923241595101" class="contact-card">
-                        <span class="contact-label">CALL ME</span>
-                        <span class="contact-value">+92 324 1595101</span>
-                        <span class="contact-arrow">↗</span>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/ffhsn/"
-                       class="contact-card"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        <span class="contact-label">CONNECT ON</span>
-                        <span class="contact-value">LinkedIn</span>
-                        <span class="contact-arrow">↗</span>
-                    </a>
-
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="container footer-content">
-            <a href="#home" class="logo footer-logo">FH<span>.</span></a>
-
-            <p>
-                © <span id="current-year"></span> Fatima Hassan.
-                Designed with care.
-            </p>
-
-            <a href="#home" class="back-to-top">Back to top ↑</a>
         </div>
-    </footer>
+    </section>
 
+    <section class="section section-cream" id="about">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">A LITTLE ABOUT ME</p>
+                <h2>Turning ideas into <span>meaningful work.</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-intro">
+                    <p class="large-copy">I'm a creative and detail-oriented professional interested in digital marketing, web development, content creation, and business support.</p>
+                </div>
+                <div class="about-details">
+                    <p>
+                        My experience spans digital media, WordPress, search engine optimization, email marketing, document editing, and administrative support. I enjoy learning new tools, solving problems, and contributing to projects that need both creativity and organization.
+                    </p>
+                    <div class="personal-details">
+                        <div><span class="detail-label">LOCATION</span><span class="detail-value">Lahore, Pakistan</span></div>
+                        <div><span class="detail-label">FIELD</span><span class="detail-value">Computer Science</span></div>
+                        <div><span class="detail-label">INTERESTS</span><span class="detail-value">Technology &amp; Creativity</span></div>
+                        <div><span class="detail-label">APPROACH</span><span class="detail-value">Learn, Create, Improve</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="education">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+                <h2>Education &amp; <span>learning.</span></h2>
+                <p class="section-description">Building a strong foundation for my professional future.</p>
+            </div>
+            <div class="education-grid">
+                <article class="education-card">
+                    <span class="card-number">01</span>
+                    <p class="card-period">2024 – 2027</p>
+                    <h3>BS Computer Science</h3>
+                    <p class="card-institution">Qarshi University</p>
+                    <p class="card-description">Developing knowledge of computing, technology, and problem-solving.</p>
+                </article>
+                <article class="education-card">
+                    <span class="card-number">02</span>
+                    <p class="card-period">2021 – 2023</p>
+                    <h3>Intermediate in ICS</h3>
+                    <p class="card-institution">Punjab Group of Colleges, Lahore</p>
+                    <p class="card-description">Studied computer science with physics.</p>
+                </article>
+                <article class="education-card">
+                    <span class="card-number">03</span>
+                    <p class="card-period">2019 – 2021</p>
+                    <h3>Matriculation</h3>
+                    <p class="card-institution">American Lycetuff, Lahore</p>
+                    <p class="card-description">Completed matriculation with a focus on computer sciences.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-dark" id="experience">
+        <div class="container">
+            <div class="section-heading section-heading-light">
+                <p class="eyebrow">MY PROFESSIONAL JOURNEY</p>
+                <h2>Experience that <span>shapes me.</span></h2>
+                <p class="section-description">A range of responsibilities across digital marketing, web development, and administrative support.</p>
+            </div>
+            <div class="experience-list">
+                <article class="experience-item">
+                    <div class="experience-date">2026 – PRESENT</div>
+                    <div class="experience-content">
+                        <h3>Document Editor &amp; Email Marketer</h3>
+                        <p class="experience-company">SecureLink</p>
+                        <p>Working with document editing, formatting, and email marketing tasks.</p>
+                    </div>
+                    <span class="experience-index">01</span>
+                </article>
+                <article class="experience-item">
+                    <div class="experience-date">PREVIOUS ROLE</div>
+                    <div class="experience-content">
+                        <h3>WordPress Developer</h3>
+                        <p class="experience-company">G. Ali &amp; Co.</p>
+                        <p>Worked on website-related tasks and supported digital media and online content activities.</p>
+                    </div>
+                    <span class="experience-index">02</span>
+                </article>
+                <article class="experience-item">
+                    <div class="experience-date">PREVIOUS ROLE</div>
+                    <div class="experience-content">
+                        <h3>Digital Media Marketing</h3>
+                        <p class="experience-company">Accord Manpower</p>
+                        <p>Contributed to digital media marketing and online promotional activities.</p>
+                    </div>
+                    <span class="experience-index">03</span>
+                </article>
+                <article class="experience-item">
+                    <div class="experience-date">ADDITIONAL EXPERIENCE</div>
+                    <div class="experience-content">
+                        <h3>Virtual Assistance &amp; Data Entry</h3>
+                        <p class="experience-company">Various assignments</p>
+                        <p>Supported data entry, administrative tasks, and general business operations.</p>
+                    </div>
+                    <span class="experience-index">04</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-cream" id="skills">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I BRING TO THE TABLE</p>
+                <h2>Skills &amp; <span>strengths.</span></h2>
+                <p class="section-description">A versatile skill set combining digital, technical, creative, and organizational abilities.</p>
+            </div>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon">01</div>
+                    <h3>Digital Marketing</h3>
+                    <ul class="skill-tags"><li>SEO</li><li>Email Marketing</li><li>Digital Media</li><li>Online Promotion</li></ul>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon">02</div>
+                    <h3>Web &amp; Technology</h3>
+                    <ul class="skill-tags"><li>WordPress</li><li>Website Content</li><li>Microsoft Office</li><li>Data Entry</li></ul>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon">03</div>
+                    <h3>Creative Work</h3>
+                    <ul class="skill-tags"><li>Content Writing</li><li>Graphic Design</li><li>Video Content</li><li>Document Formatting</li></ul>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon">04</div>
+                    <h3>Professional Skills</h3>
+                    <ul class="skill-tags"><li>Communication</li><li>Teamwork</li><li>Time Management</li><li>Problem-Solving</li></ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section languages-section" id="languages">
+        <div class="container languages-layout">
+            <div class="languages-heading">
+                <p class="eyebrow">COMMUNICATION</p>
+                <h2>Languages I <span>speak.</span></h2>
+                <p>Communicating across languages and cultures helps me connect with different people.</p>
+            </div>
+            <div class="language-list">
+                <div class="language-item">
+                    <div class="language-info"><h3>English</h3><span>Language</span></div>
+                    <span class="language-badge">English</span>
+                </div>
+                <div class="language-item">
+                    <div class="language-info"><h3>Urdu</h3><span>Language</span></div>
+                    <span class="language-badge">Urdu</span>
+                </div>
+                <div class="language-item">
+                    <div class="language-info"><h3>Punjabi</h3><span>Language</span></div>
+                    <span class="language-badge">Punjabi</span>
+                </div>
+                <div class="language-item">
+                    <div class="language-info"><h3>Arabic</h3><span>Basic proficiency</span></div>
+                    <span class="language-badge">Basic</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+        <div class="container contact-container">
+            <div class="contact-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Have a project in <span>mind?</span></h2>
+                <p>I'd love to connect, discuss ideas, and explore opportunities to work together.</p>
+            </div>
+            <div class="contact-details">
+                <a href="mailto:itsfatima.hsn@hotmail.com" class="contact-card">
+                    <span class="contact-label">EMAIL ME</span>
+                    <span class="contact-value">itsfatima.hsn@hotmail.com</span>
+                    <span class="contact-arrow">↗</span>
+                </a>
+                <a href="tel:+923241595101" class="contact-card">
+                    <span class="contact-label">CALL ME</span>
+                    <span class="contact-value">+92 324 1595101</span>
+                    <span class="contact-arrow">↗</span>
+                </a>
+                <a href="https://www.linkedin.com/in/ffhsn/" class="contact-card" target="_blank" rel="noopener noreferrer">
+                    <span class="contact-label">CONNECT ON</span>
+                    <span class="contact-value">LinkedIn</span>
+                    <span class="contact-arrow">↗</span>
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-content">
+        <a href="#home" class="logo footer-logo">FH<span>.</span></a>
+        <p>© <span id="current-year"></span> Fatima Hassan. Designed with care.</p>
+        <a href="#home" class="back-to-top">Back to top ↑</a>
+    </div>
+</footer>
 </body>
 </html>
